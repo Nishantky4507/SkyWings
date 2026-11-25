@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 150" role="img" aria-labelledby="title">
+<title id="title">SkyWings Airlines</title>
+<g transform="translate(8 6)">
+  <path d="M18 48 C70 61 117 48 161 22 C135 57 99 80 55 78 C38 77 25 67 18 48Z" fill="#174f91"/>
+  <path d="M35 78 C85 91 128 79 171 47 C145 82 112 104 71 104 C53 103 41 93 35 78Z" fill="#19a9df"/>
+  <path d="M56 106 C99 113 133 103 166 81 C143 110 114 126 84 126 C70 125 61 117 56 106Z" fill="#ffffff"/>
+  <path d="M100 105 L207 13 Q213 8 217 13 L204 34 L225 26 L213 43 L190 49 L123 112Z" fill="#ffffff"/>
+  <path d="M112 111 Q164 72 211 23" fill="none" stroke="#dff7ff" stroke-width="5" stroke-linecap="round"/>
+</g>
+<text x="250" y="91" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="-3" fill="#174f91">Sky</text>
+<text x="363" y="91" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="-3" fill="#159fd6">Wings</text>
+<path d="M255 113 H310 M490 113 H545" stroke="#159fd6" stroke-width="2"/>
+<text x="323" y="122" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="9" fill="#174f91">AIRLINES</text>
+</svg>
