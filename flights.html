@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Flight Results | SkyWings Airlines</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html">
+<img src="assets/icons/skywings-logo.svg" alt="SkyWings Airlines">
+</a>
+<nav class="main-nav">
+<a class="nav-link " href="index.html">Home</a>
+<a class="nav-link active" href="flights.html">Find Flights</a>
+<a class="nav-link " href="bookings.html">My Bookings</a>
+</nav>
+<div class="header-actions">
+<a class="btn btn-primary btn-small" href="index.html#search-panel">Book a flight</a>
+</div>
+</header>
+<main class="page">
+<div class="container">
+<div class="page-intro">
+<span class="eyebrow">FLIGHT SEARCH</span>
+<h1 class="page-title">Choose your flight</h1>
+<p id="resultsSubtitle">Compare direct and connecting flight options for your journey.</p>
+</div>
+<div class="panel">
+<div class="toolbar">
+<div>
+<strong id="resultCount">Available flights</strong>
+<p class="small-note" style="margin:5px 0">Direct routes and via-city connections are generated for every city pair in the destination list.</p>
+</div>
+<div style="display:flex;gap:10px;flex-wrap:wrap">
+<label class="field">
+<span>FLIGHT TYPE</span>
+<select class="control" id="resultFlightType">
+<option value="both">All flights</option>
+<option value="direct">Direct only</option>
+<option value="connecting">Connecting only</option>
+</select>
+</label>
+<label class="field">
+<span>SORT BY</span>
+<select class="control" id="sortFlights">
+<option value="recommended">Recommended</option>
+<option value="price">Lowest fare</option>
+<option value="departure">Departure time</option>
+<option value="duration">Journey duration</option>
+</select>
+</label>
+</div>
+</div>
+<div id="flightResults" class="flight-list">
+</div>
+<div class="note-box">Demonstration only: all generated flight numbers, schedules, fares and availability are fictional. They are created for every listed city pair and do not represent real airline services. A round-trip search records the return date, but this prototype books the selected outbound itinerary only.</div>
+<a class="btn btn-outline" href="index.html#search-panel">← Modify search</a>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+<a href="index.html">
+<img src="assets/icons/skywings-logo.svg" alt="SkyWings Airlines">
+</a>
+<span>Student project demonstration · Sample flight data only</span>
+<span>© 2026 SkyWings Airlines</span>
+</footer>
+<div id="toast" class="toast" role="status">
+</div>
+<script src="js/data.js">
+</script>
+<script src="js/app.js">
+</script>
+</body>
+</html>

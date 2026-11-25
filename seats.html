@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Seat Selection | SkyWings Airlines</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html"><img src="assets/icons/skywings-logo.svg" alt="SkyWings Airlines"></a>
+<nav class="main-nav"><a class="nav-link" href="index.html">Home</a><a class="nav-link active" href="flights.html">Find Flights</a><a class="nav-link" href="bookings.html">My Bookings</a></nav>
+<div class="header-actions"><a class="btn btn-primary btn-small" href="index.html#search-panel">Book a flight</a></div>
+</header>
+<main class="page"><div class="container">
+<div class="page-intro"><span class="eyebrow">SEAT ALLOCATION</span><h1 class="page-title">Your seat, your journey.</h1><p>Check the aircraft seat map. Green seats are available; red seats are already occupied.</p></div>
+<div class="seat-layout">
+<section class="white-card aircraft-card">
+<h3>Aircraft seat availability</h3>
+<div class="seat-legend"><span><i class="legend-dot"></i> Available</span><span><i class="legend-dot booked"></i> Unavailable</span></div>
+<div class="aircraft-nose">FRONT OF AIRCRAFT</div>
+<div class="class-block"><h4>Business Class · B1–B25</h4><div class="seat-map" id="businessSeatMap"></div></div>
+<div class="class-block"><h4>Economy Class · E1–E75</h4><div class="seat-map" id="economySeatMap"></div></div>
+<p class="small-note">Seat labels use B1–B25 for Business Class and E1–E75 for Economy. Occupied seats cannot be assigned again.</p>
+</section>
+<aside class="white-card"><h3>Allocation details</h3><div id="seatSummary"></div><div id="seatPreferences" class="seat-preferences"></div><button class="btn btn-primary" id="allocateSeatsButton" style="width:100%;margin-top:18px">Allocate my seats&nbsp; →</button><p class="small-note">Window, aisle and middle are preferences only. The system prioritizes available seats, so your preference is not guaranteed.</p></aside>
+</div></div></main>
+<footer class="site-footer"><a href="index.html"><img src="assets/icons/skywings-logo.svg" alt="SkyWings Airlines"></a><span>Student project demonstration · Sample flight data only</span><span>© 2026 SkyWings Airlines</span></footer>
+<div id="toast" class="toast" role="status"></div><script src="js/data.js"></script><script src="js/app.js"></script>
+</body></html>

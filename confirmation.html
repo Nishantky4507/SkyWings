@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Booking Confirmation | SkyWings Airlines</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html">
+<img src="assets/icons/skywings-logo.svg" alt="SkyWings Airlines">
+</a>
+<nav class="main-nav">
+<a class="nav-link " href="index.html">Home</a>
+<a class="nav-link " href="flights.html">Find Flights</a>
+<a class="nav-link active" href="bookings.html">My Bookings</a>
+</nav>
+<div class="header-actions">
+<a class="btn btn-primary btn-small" href="index.html#search-panel">Book a flight</a>
+</div>
+</header>
+<main class="page">
+<div class="container">
+<section class="success-banner">
+<div class="success-mark">✓</div>
+<span class="eyebrow">RESERVATION COMPLETE</span>
+<h1 class="page-title">Your booking is confirmed!</h1>
+<p class="muted">Your booking e-ticket is ready. Save your booking reference for your records.</p>
+</section>
+<div id="boardingPass" class="boarding-pass">
+</div>
+<div class="pass-actions">
+<a class="btn btn-outline" href="bookings.html">View my bookings</a>
+<a class="btn btn-outline" href="index.html">Book another flight</a>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+<a href="index.html">
+<img src="assets/icons/skywings-logo.svg" alt="SkyWings Airlines">
+</a>
+<span>Student project demonstration · Sample flight data only</span>
+<span>© 2026 SkyWings Airlines</span>
+</footer>
+<div id="toast" class="toast" role="status">
+</div>
+<script src="js/data.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="js/app.js">
+</script>
+</body>
+</html>
